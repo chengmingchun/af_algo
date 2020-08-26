@@ -1,0 +1,6 @@
+function flag = cando(pop,length)
+%%%% 检验是否违背了约束
+%%%%%% 即 是否在加入了空驶段后依然违背时间约束
+flag = 1;
+
+

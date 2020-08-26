@@ -1,0 +1,13 @@
+function [pop len] = uncode(p)
+%%% 将基因解码成矩阵
+uni = unique(p);
+len = length(uni);
+pop = [];
+for i=1:len
+    for j=1:p
+        if p(i) == uni(j)
+            pop = [pop;]
+        end
+    end
+end
+
